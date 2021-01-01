@@ -1,13 +1,52 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin:0;
+  padding:0;
+  background-color:#c9b3da;
+  color:#5d198f;
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#quote-box {
+  background-color:#5d198f;
+  color: #c9b3da;
+  width: 60vw;
+  margin: 7rem auto;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+h2 {
+  padding: 0.5rem 3rem 1.5rem 3rem;
+}
+
+#author {
+  padding: 2rem 3rem;
+  font-style: italic;
+}
+
+#text {
+  line-height: 1.5;
+}
+
+#new-quote {
+  border-color: #5d198f;
+  padding: 1rem;
+  margin: 2rem;
+  float: right;
+  background-color: #c9b3da;
+  color:#1e0034;
+}
+
+#new-quote:hover{
+  background-color: #1e0034;
+  color:#c9b3da;
+  border-color:#1e0034;
+  cursor: pointer;
+}
+
+#tweet-quote{
+  float:left;
+  padding:2rem;
+  
 }
